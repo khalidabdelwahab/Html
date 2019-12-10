@@ -1,32 +1,5 @@
 body{
-    margin: 0;
-    padding: 0;
-}
-.slider{
-    width: 700px;
-    height: 400px;
-    background: url(pic1.jfif);
-    margin: 0 auto;
-    animation: slide 20s infinite;
-}   
-
-@keyframes slide{
-    25%{
-        background: url(pic2.jfif);  
-    }
-    50%{
-        background: url(pic3.jfif);  
-    }
-    75%{
-        background: url(pic4.jfif);  
-    }
-    100%{
-        background: url(pic1.jfif);  
-    }
-}
-
-body{
-    background-image: url("background.jfif");
+    background-image: url("../pics/background.jfif");
     background-size: cover;
 
 }
@@ -71,4 +44,10 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 	 
+}
+ol{
+    column-count: 3;
+    float:none;
+    padding: 10px 10% 10px 10%px;
+    color: white;     
 }

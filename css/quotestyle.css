@@ -1,5 +1,5 @@
 body{
-    background-image: url("background.jfif");
+    background-image: url("../pics/background.jfif");
     background-size: cover;
 
 }
@@ -7,6 +7,15 @@ h1{
     text-align: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 17px;
 }
 .topnav {
     background-color: #250056;
@@ -26,35 +35,20 @@ h1{
     background-color: rgb(41, 41, 41);
     color: white;
 }
-.quote{
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-}
 .center{
     display: block;
     margin-right: auto;
     margin-left: auto;
-}
-.p1{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-
-}
-p{
-    font-family:'Times New Roman', Times, serif;
-    color: white;
-    
-}
-.border{
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
 }
 .box{
     display: flex;
     flex-direction: row;
     justify-content: space-around; 	 
 }
+#displayquote{
+    color: white;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+

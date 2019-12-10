@@ -1,5 +1,32 @@
 body{
-    background-image: url("background.jfif");
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    width: 700px;
+    height: 400px;
+    background: url(../pics/pic1.jfif);
+    margin: 0 auto;
+    animation: slide 20s infinite;
+}   
+
+@keyframes slide{
+    25%{
+        background: url(../pics/pic2.jfif);  
+    }
+    50%{
+        background: url(../pics/pic3.jfif);  
+    }
+    75%{
+        background: url(../pics/pic4.jfif);  
+    }
+    100%{
+        background: url(../pics/pic1.jfif);  
+    }
+}
+
+body{
+    background-image: url("../pics/background.jfif");
     background-size: cover;
 
 }
@@ -45,10 +72,3 @@ p{
     flex-direction: row;
     justify-content: space-around; 	 
 }
-#displayquote{
-    color: white;
-    font-size: large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-}
-
